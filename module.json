@@ -1,0 +1,70 @@
+{
+    "name": "pf2e-template-summons",
+    "title": "PF2e Template Summons",
+    "description": "Template based summoning spells for Pathfinder 2.",
+    "packs": [
+        {
+            "name": "template-summons-actions",
+            "label": "Template Summons Actions",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/template-summons-actions.db",
+            "entity": "Item",
+            "module": "pf2e-template-summons"
+        },
+        {
+            "name": "template-summons-effects",
+            "label": "Template Summons Effects",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/template-summons-effects.db",
+            "entity": "Item",
+            "module": "pf2e-template-summons"
+        },
+        {
+            "name": "template-summons-spells",
+            "label": "Template Summons Spells",
+            "type": "Item",
+            "system": "pf2e",
+            "path": "packs/template-summons-spells.db",
+            "entity": "Item",
+            "module": "pf2e-template-summons"
+        },
+        {
+            "name": "template-summons-creatures",
+            "label": "Template Summons Creatures",
+            "type": "Actor",
+            "system": "pf2e",
+            "path": "packs/template-summons-creatures.db",
+            "entity": "Actor",
+            "module": "pf2e-template-summons"
+        }
+    ],
+    "flags": {},
+    "url": "https://github.com/bcronin90/PF2e-template-summons",
+    "manifest": "https://raw.githubusercontent.com/bcronin90/PF2e-template-summons/main/module.json",
+    "download": "https://github.com/bcronin90/PF2e-template-summons/archive/refs/heads/main.zip",
+    "id": "pf2e-template-summons",
+    "authors": [
+        {
+            "name": "zich."
+        }
+    ],
+    "compatibility": {
+        "minimum": 11.315,
+        "verified": 11.315
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "5.9.5"
+                }
+            }
+        ]
+    },
+    "version": "1.0"
+}
